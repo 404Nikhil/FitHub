@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+  <title>Stay Fit with FitHub</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="static/style.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="tracker/main.css" rel="stylesheet">
+  <script src="tracker/main.js" type="module"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">FitHub<span></span></a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#gym">Exercises</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#services">Calories</a></li> -->
+          <li><a class="nav-link scrollto " href="#portfolio">Diet Advices</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Fitness is not a destination, it's a<span style="color: rgb(246, 190, 81);">Journey</span></h1>
+        </div>
+      </div>
+
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box" href="#gym">
+            <i class="ri-database-2-line"></i>
+            <h3><a href="#gym">Exercises</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line"></i>
+            <h3><a href="http://127.0.0.1:8000/">Calories Calculator</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line"></i>
+            <h3><a href="#portfolio">Diet Advices</a></h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+          <iframe  width="600" height="350" src="https://www.youtube.com/embed/0by6K3wMlRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="600" height="350" src="https://www.youtube.com/embed/Eml2xnoLpYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3 style="color: whitesmoke; display: flex; justify-content: center;" >Abs</h3>
+            <p class="fst-italic">
+              This exercise is excelent for your stomach .....
+            </p>
+            <div style="color: whitesmoke; display: flex; justify-content: center;">
+            <ul>
+              <li><i class="ri-check-double-line" ></i><b> Less Fat.</b></li>
+              <li><i class="ri-check-double-line"></i><b> More strength.</b></li>
+              <li><i class="ri-check-double-line"></i><b>Prevent lower back pain.</b></li>
+            </ul>
+            </div>
+            <p style="color: whitesmoke; display: flex; justify-content: center;">
+              Most efficent: 5 days a week, 4times x 30 iterations.
+            </p>
+          </div>
+          
+
+<!-- another div -->
+
+
+
+        
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+ 
+   <!-- ======= Testimonials Section ======= -->
+   <section id="testimonials" style="height: 400px;" class="testimonials">
+    <div class="container" data-aos="zoom-in">
+
+           </div>
+  </section><!-- End Testimonials Section -->
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>What you want to eat?</h2>
+          <p>Calculate Calories</p>
+        </div>
+        
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Topic.." title="Type in a name">
+<div>
+        <ul id="myUL">
+        <li><a href="shuffle4.html">School</a></li>
+        <li><a href="shuffle4.html">Sport</a></li>
+        <li><a href="shuffle4.html">Tennis</a></li>
+        <li><a href="shuffle4.html">Work</a></li>
+        <li><a href="shuffle4.html">Funny</a></li>
+        <li><a href="shuffle4.html">Money</a></li>
+        <li><a href="shuffle4.html">Food</a></li>
+        </ul>
+        <script>
+          function myFunction() {
+var input, filter, ul, li, a, i, txtValue;
+input = document.getElementById("myInput");
+filter = input.value.toUpperCase();
+ul = document.getElementById("myUL");
+li = ul.getElementsByTagName("li");
+
+// If we've got more than 1 char in <input>, show it, otherwise, hide
+const inputDisplay = input.value.length > 1 ? 'block' : 'none';
+ul.style.display = inputDisplay;
+
+for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+    } else {
+        li[i].style.display = "none";
+    }
+}
+}
+        </script>
+        </div>
+      </div>
+
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="data" class="form-control" name="calories" id="calories" placeholder="Calories per 100g" required>
+            </div>
+          </div>
+         
+      <hr>
+
+          <div class="text-center " ><button type="submit" class="btn btn-secondary">Calculate</button></div>
+        </form>
+        </div>
+
+      </div>
+    </section>End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" style="height:400px" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+         
+        </div>
+
+      </div>
+    </section>End Cta Section -->
+    
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Diet Advices</h2>
+          <p>Eat healty</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Excess Weight</li>
+              <li data-filter=".filter-card">reduced body weight</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container"style="color: white;"  data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <h3>Eat regular meals.</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <h3>Get more active.</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <h3>Do not skip breakfast.</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <h3>Eat plenty of fruit and veg.</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <h3>Keep It Moving After Dinner.</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <h3>Take a Water Break Before Lunch.</h3>
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+      <!-- <div id="app">
+   
+      </div> -->
+    </section><!-- End Portfolio Section -->
+    <section id="cta" style="height:400px" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+         
+        </div>
+
+      </div>
+     
+    </section>
+
+ 
+
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Check our Team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/test.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://github.com/404nikhil"><i class="bi bi-github"></i></a>
+                  <a href="https://www.instagram.com/404nikhil_dhariwal"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/#######/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>ND</h4>
+                <span>LLLLLL</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <!-- <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Motaviation</h2>
+          <p>Motivational quotes</p>
+        </div>
+      </div>
+      <div class="container">
+         <b><h5>The last three or four reps is what makes the muscle grow.</h5></b>
+         <hr>
+         <b><h5>All progress takes place outside the comfort zone.</h5></b>
+         <hr>
+         <b><h5>If you think lifting is dangerous, try being weak.</h5></b>
+         <hr>
+         <h5>......</h5>
+      </div>
+    </section>End Contact Section -->
+
+
+    
+    <head>
+     
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+    
+        <style>
+            .card:hover {
+                box-shadow: 20px 20px 80px -40px #000;
+                transition: 0.5s ease-in-out;
+                cursor: pointer;
+            }
+    
+        </style>
+    
+
+    <section id="gym" class="gym">
+        <div class="container mt-5">
+          <div class="section-title">
+            <h2>Burn your Calories</h2>
+            <p>Exercises</p>
+          </div>
+    </div>
+            <div class="col-lg-12 d-flex justify-content-center">
+                <div class="row">
+    
+                    <div class="col-md-4 mt-5">
+                        <div class="card">
+                          <video playsinline="" preload="metadata" muted="" autoplay="" loop="" class="card-img-top w-100" src="https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-crunch-front.mp4#t=0.1">
+                          </video>
+                            <div class="card-body">
+                                <h2 class="card-title">Crunches</h2>
+                                <div class="d-flex justify-content-between">
+                                    <!-- <p class="card-text">###</p> -->
+                                    <!-- <p class="card-text mr-4 text-success">65</p> -->
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="card">
+                          <video playsinline="" preload="metadata" muted="" autoplay="" loop="" class="card-img-top w-100" src="https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-russian-twist-front.mp4#t=0.1">
+                          </video>                            <div class="card-body">
+                                <h2 class="card-title">Dumbbell Russian Twist</h2>
+                                <div class="d-flex justify-content-between">
+                                    <!-- <p class="card-text">###</p>
+                                    <p class="card-text mr-4 text-success">46</p> -->
+                                </div>
+                                <!-- <a href="" class="card-link "  data-toggle="modal" data-target="#modelId">More</a> -->
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 mt-5">
+                        <div class="card">
+                          <video playsinline="" preload="metadata" muted="" autoplay="" loop="" class="card-img-top w-100" src="https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-pushup-renegade-row-side.mp4#t=0.1">
+                          </video>                            <div class="card-body">
+                                <h2 class="card-title">Pushup to Renegade Row</h2>
+                                <div class="d-flex justify-content-between">
+                                    <!-- <p class="card-text">###</p>
+                                    <p class="card-text mr-4 text-success">60</p> -->
+                                </div>
+                                <!-- <a href="" class="card-link "  data-toggle="modal" data-target="#modelId">More</a> -->
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 mt-5">
+                        <div class="card">
+                          <video playsinline="" preload="metadata" muted="" autoplay="" loop="" class="card-img-top w-100" src="https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-cobra-pose-front.mp4#t=0.1">
+                          </video>                            <div class="card-body">
+                                <h2 class="card-title">Cobra Pose</h2>
+                                <div class="d-flex justify-content-between">
+                                    <!-- <p class="card-text">###</p>
+                                    <p class="card-text mr-4 text-success">70</p> -->
+                                </div>
+                                <!-- <a href="" class="card-link "  data-toggle="modal" data-target="#modelId">More</a> -->
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 mt-5">
+                        <div class="card">
+                          <video playsinline="" preload="metadata" muted="" autoplay="" loop="" class="card-img-top w-100" src="https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-Urdhva-Dhanurasana-wheel-pose-front.mp4#t=0.1">
+                          </video>                            <div class="card-body">
+                                <h2 class="card-title">Urdhva Dhanurasana Wheel Pose</h2>
+                                <div class="d-flex justify-content-between">
+                                    <!-- <p class="card-text">###</p>
+                                    <p class="card-text mr-4 text-success">600</p> -->
+                                </div>
+                                <!-- <a href="" class="card-link "  data-toggle="modal" data-target="#modelId">More</a> -->
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 mt-5">
+                        <div class="card">
+                          <video playsinline="" preload="metadata" muted="" autoplay="" loop="" class="card-img-top w-100" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-bench-press-front.mp4">
+                          </video>                            <div class="card-body">
+                                <h2 class="card-title">Barbell Bench Press</h2>
+                                <div class="d-flex justify-content-between">
+                                    <!-- <p class="card-text">###</p>
+                                    <p class="card-text mr-4 text-success">Barbell</p> -->
+                                </div>
+                                <!-- <a href="" class="card-link"  data-toggle="modal" data-target="#modelId">More</a> -->
+                            </div>
+                        </div>
+                    </div>
+    
+                  <div>
+
+                  </div>
+                </div>
+            </div>
+    
+    
+            <!-- Modal Code start -->
+            <!-- <div class="modal fade " id="modelId">
+                <div class="modal-dialog  bg-success" >
+                    <div class="modal-content " style="transform: scaleX(1.4);  ">
+                        <div class="modal-header pb-2">
+                            <h1 class="font-weight-light ml-4">Description</h1>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body ">
+    
+                            <div class="row mt-2 p-3">
+                                <div class="col-md-6">
+                                    <img src=""  width="100%" height="280px"  class="rounded" />
+                                </div>
+                                <div class="col-md-6 ">
+                                    <h2 class="product_name"></h2>
+         <p style="box-sizing: border-box;" class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.In rerum error harum.</p>
+    
+                                    <p>Calories : &nbsp;&nbsp;&nbsp;<i class="fa fa-star text-warning"></i> <i
+                                            class="fa fa-star text-warning ml-2"></i><i
+                                            class="fa fa-star text-warning ml-2"></i><i
+                                            class="fa fa-star text-warning ml-2"></i><i class="fa fa-star ml-2"></i>
+                                    </p>
+                                    <h4 class="product_price"></h4>
+                                    <button class="btn btn-success mt-2" style="width:150px" href="https://musclewiki.com/workouts/beginner-barbell-workout/"><a href="https://www.youtube.com/watch?v=1I1wida_4OQ&t=3s">Link to muscle.wiki</a></button>
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+           
+    
+           <script>
+                $(document).ready(function () {
+                    $(".card-link").click(function () {
+                        $(".rounded").attr("src", $(this).parent().siblings().attr("Src"));
+                        $(".product_name").text($(this).siblings("h2").text());
+                        $(".product_desc").text($(this).siblings("div").find("p:nth(0)").text());
+                        $(".product_price").text($(this).siblings("div").find("p:nth(1)").text());
+                    })
+                    $(window).resize(function(){
+                        if($(window).width() < 600){
+                            $(".modal-content").css("transform" , "scaleX(1)");
+                        }
+                        else{
+                            $(".modal-content").css("transform" , "scaleX(1.4)");
+                        }
+                    });
+                });
+    
+            </script> -->
+    </section>
+    
+    <!-- End #main -->
+
+
+
+  
+  <!-- ======= Footer ======= -->
+ <div> <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>FitHub<span>.</span></h3>
+             
+                <strong>Phone:</strong> 9996342421<br>
+                <strong>Email:</strong> nikhildhariwal2004@gmail.com<br>
+              </p>
+             
+            </div>
+          </div>
+        
+         
+          <div class="col-lg-6 col-md-4 footer-links" style="display: flex; flex-direction: row-reverse;">
+            <div>
+            <b>
+              <h4  style="color: orange; font-size: large;">Feel free to contact us</h4>
+            </b>
+            <div class="social-links mt-3">
+              <a href="" class="github"><i class="bx bxl-github"></i></a>
+              <a href="/" class="instagram"><i class="bx bxl-instagram"></i></a>
+               <a href="" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">FitBot</h4>
+                        <p class="chatbox__description--header">Hi. How can I assist you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="static/images/chatbox-icon.svg" /></button>
+            </div>
+        </div>
+    </div>
+    
+        <script>
+            $SCRIPT_ROOT = {{ request.script_root|tojson }};
+        </script>
+        <script type="text/javascript" src="static/app.js"></script>
+    
+    </body>
+
+    
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

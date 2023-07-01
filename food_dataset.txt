@@ -1,0 +1,84 @@
+1 cup of dal-180 kcal
+1 cup of curd-222
+1 bowl of rice-130
+1 bowl of rajma-232(protein-38,fat-82)
+1 bowl of chole-223
+1 bowl of mutter paneer-122
+1 bowl of kadhai paneer-248(carbs-31,fat-18,protein-15)
+1 bowl of tawa panner-400(protein-16,carbs-15,fibre-2)
+1 bowl of butter of panner-389(carbs-29,protein-12,fat-27)
+1 bowl of chicken patiala-450(carbs-28,fat-20,protein-30)
+{"name": "butter chicken", "calories": 152.0, "serving_size_g": 100.0, "fat_total_g": 9.6, "fat_saturated_g": 4.2, "protein_g": 9.7, "sodium_mg": 102, "potassium_mg": 108, "cholesterol_mg": 38, "carbohydrates_total_g": 5.8, "fiber_g": 0.8, "sugar_g": 2.8}
+1 plate of chicken fried rice-343 
+{"name": "roti", "calories": 296.9, "serving_size_g": 100.0, "fat_total_g": 9.0, "fat_saturated_g": 3.3, "protein_g": 7.8, "sodium_mg": 294, "potassium_mg": 156, "cholesterol_mg": 0, "carbohydrates_total_g": 45.6, "fiber_g": 9.5, "sugar_g": 3.0}]
+1 plate of mutton biryani-642
+1 plate of egg biryani-222
+1 plate of veg biryani-198
+1 plate of veg fried rice-228
+2 chapati-140
+{"name": "cake", "calories": 393.6, "serving_size_g": 100.0, "fat_total_g": 17.6, "fat_saturated_g": 2.9, "protein_g": 3.0, "sodium_mg": 271, "potassium_mg": 142, "cholesterol_mg": 74, "carbohydrates_total_g": 57.2, "fiber_g": 0.3, "sugar_g": 42.1}
+2 bhature-460
+2 Bread-265
+1 bowl of kheer-197
+1 bowl of halwa-469
+{"name": "idli", "calories": 153.9, "serving_size_g": 100.0, "fat_total_g": 1.1, "fat_saturated_g": 0.2, "protein_g": 4.3, "sodium_mg": 195, "potassium_mg": 70, "cholesterol_mg": 0, "carbohydrates_total_g": 29.6, "fiber_g": 1.4, "sugar_g": 0.3}]
+1 bowl of custard-122
+1 bowl of watermelon-47
+1 bowl of muskmelon-60
+1 bowl of papaya-54
+1 bowl of mango-99
+1 bowl of grapes-62
+1 banana-105
+1 glass of milk-42
+1 glass of butter milk-40
+1 glass of lassi-286
+1 cup of tea-43
+1 cup of coffee-140
+1 packet of chips(50gm)-536
+1 packet of popcorn(100gm)-375
+1 packet of maggie-380
+1  bottle of cold drink(750ml)-291
+
+
+
+
+1 cup of dal-180 kcal
+1 cup of curd-222
+1 bowl of rice-130
+1 bowl of rajma-232(protein-38,fat-82)
+1 bowl of chole-223
+1 bowl of mutter paneer-122
+1 bowl of kadhai paneer-248(carbs-31,fat-18,protein-15)
+1 bowl of tawa panner-400(protein-16,carbs-15,fibre-2)
+1 bowl of butter of panner-389(carbs-29,protein-12,fat-27)
+1 bowl of chicken patiala-450(carbs-28,fat-20,protein-30)
+1 bowl of butter chicken masala-370(carbs-40,protein-20,fat-15)
+1 plate of chicken fried rice-343 
+1 plate of chicken biryani-502
+1 plate of mutton biryani-642
+1 plate of egg biryani-222
+1 plate of veg biryani-198
+1 plate of veg fried rice-228
+2 chapati-140
+2 puri-213
+2 bhature-460
+2 Bread-265
+1 bowl of kheer-197
+1 bowl of halwa-469
+1 bowl of gulabjamun(2 piece)-300
+1 bowl of custard-122
+1 bowl of watermelon-47
+1 bowl of muskmelon-60
+1 bowl of papaya-54
+1 bowl of mango-99
+1 bowl of grapes-62
+1 banana-105
+1 glass of milk-42
+1 glass of butter milk-40
+1 glass of lassi-286
+1 cup of tea-43
+1 cup of coffee-140
+1 packet of chips(50gm)-536
+1 packet of popcorn(100gm)-375
+1 packet of maggie-380
+1  bottle of cold drink(750ml)-291
